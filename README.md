@@ -1,2 +1,10 @@
-# epric-react-01-fundamentals
-course notes
+# epic-react-01-fundamentals summary
+
+The first part of the Epic React course, react-fundamentals, walks us through some of the fundamentals of why and how we create modern applications. Chapters 1(one) through 4(four) aim to show us how the raw APIs of both the DOM and React work. The course does this to establish a point of reference and to give to the user a greater understanding of what’s undernith the hood in the React framework;
+
+* In Chapter one we use vanilla JavaScript and DOM APIs to start our journey and write Hello World in a plain `html` document.
+* In Charter two we do the same thing using the React APIs via the imported CDN. Here we learn how to define the React element type such as `div`, `span`, etc., the `className` attribute and `children` array.
+* With Chapter three we start learning about `JSX` and `babel` which is the compiler that is needed to make this abstraction work. `JSX` is a more intuitive abstraction when compared with the standard React API. It lets us write html-like syntax. Now combining babel and react we see that we can create elements using syntax like `<div className="container">Hello World</div>` and with this we can then do things like interpolating children and spread props.
+* React is all about modularity and sharing code. Chapter four aims to make us understand this concept in its basic form; We start by first creating a function that takes props and displays them using the `JSX` abstraction previously learned. Going through the extras of this chapter we write our first `JSX` Message component `<Message>Hello World</Message>` also here we learn that we need to pass Babel a capitalized function `function Message` in order for it to properly compile it vanilla JavaScript.
+* Chapter five and its extras set the basis of styling React elements using the standard `className` property and React functions as we learned previously.
+* All of the things we've learned until now are put together in Chapter six where we create a basic form that outputs whatever we typed in it to an alert modal and with this we also tap into the events API for which we create event handlers. We also learn about react refs wich is another approach to retrieving a value from a React input element, some basic validation, using the `useState` hook, using the same hook we also learn to control that value for cases where updates are needed as we type
